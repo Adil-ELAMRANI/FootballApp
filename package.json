@@ -1,0 +1,25 @@
+{
+  "name": "footballapp",
+  "version": "1.0.0",
+  "description": "Application Node.js pour récupérer et afficher des données de football via une API publique",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.10",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "football",
+    "équipe"
+    
+  ],
+  "author": "Adil",
+  "license": "ISC"
+}

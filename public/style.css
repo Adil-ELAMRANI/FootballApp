@@ -1,0 +1,83 @@
+/* Style général de la page */
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #0a192f; /* Bleu nuit très foncé */
+    color: #ffffff; /* Texte clair */
+}
+
+/* Conteneur principal de l'application */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #112240; /* Bleu plus clair pour le fond du bloc de contenu */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Titre principal */
+h1 {
+    color: #64ffda; /* Bleu-vert lumineux pour accent */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Bouton principal */
+#fetchBtn {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 12px 30px;
+    background-color: #1e90ff; /* Bleu professionnel */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+#fetchBtn:hover {
+    background-color: #1c7ed6; /* Bleu un peu plus foncé */
+    transform: scale(1.05); /* Légère animation au survol */
+}
+
+/* Grille responsive pour les cartes */
+.competitions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* Style des cartes de compétition */
+.competition-card {
+    background: #0f2a45; /* Bleu foncé uniforme */
+    border: 1px solid #1e90ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Animation de survol des cartes */
+.competition-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Titre des cartes */
+.competition-card h3 {
+    margin-top: 0;
+    color: #4fd1c5; /* Bleu-vert clair */
+    font-size: 18px;
+}
+
+/* Détails dans les cartes */
+.competition-card p {
+    margin: 5px 0;
+    color: #cbd5e1; /* Gris-bleu clair pour le texte */
+    font-size: 15px;
+}
